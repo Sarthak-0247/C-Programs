@@ -11,14 +11,14 @@ int main(){
 
     
     if(M >= 65 && P >= 55 && C >= 50) {
-        if(M<=100 &&P<=100 &&C <= 100) {
+        if(M<=190 && P<=190 && C <= 190) {
             if(M+P >= 140) {
                 printf("Congrats! you are eligible");
             } else {
                 printf("Sorry! you are not eligible : M+P < 140.\n");
         }
     } else {
-        printf("Sorry! you are not eligible :M+P+C < 100.\n");
+        printf("Sorry! you are not eligible :M+P+C < 190.\n");
     }
     } else {
         printf("Sorry ! you are not eligigile : Individual subject creiteria .\n");
