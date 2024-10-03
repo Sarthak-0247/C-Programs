@@ -26,4 +26,5 @@ int main() {
         t = t + (t*.15) + 100;
         printf("total charge : %f", t);
     }
+    return 0;
 }
